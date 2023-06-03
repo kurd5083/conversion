@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Биржа неткоинов</h1>
+    <button>Выйти</button>
+  </header>
+  <main>
+
+    <div class="block_1">
+      <h2>Курс валют</h2>
+      <table class="table">
+        <tbody>
+          <tr>
+            <td><b>Код</b></td>
+            <td><b>Курс</b></td>
+          </tr>
+          <tr>
+            <td>RUB_USD</td>
+            <td>80.5093</td>
+          </tr>
+          <tr>
+            <td>RUB_EUR</td>
+            <td>88.3712</td>
+          </tr>
+          <tr>
+            <td>RUB_NTC</td>
+            <td>10.8776</td>
+          </tr>
+          <tr>
+            <td>USD_RUB</td>
+            <td>0.01242</td>
+          </tr>
+          <tr>
+            <td>USD_EUR</td>
+            <td>0.91104</td>
+          </tr>
+          <tr>
+            <td>USD_NTC</td>
+            <td>7.40138</td>
+          </tr>
+          <tr>
+            <td>EUR_RUB</td>
+            <td>0.01132</td>
+          </tr>
+          <tr>
+            <td>EUR_USD</td>
+            <td>1.09765</td>
+          </tr>
+          <tr>
+            <td>EUR_NTC</td>
+            <td>8.12415</td>
+          </tr>
+          <tr>
+            <td>NTC_RUB</td>
+            <td>0.09193</td>
+          </tr>
+          <tr>
+            <td>NTC_USD</td>
+            <td>0.13511</td>
+          </tr>
+          <tr>
+            <td>NTC_EUR</td>
+            <td>0.12309</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="block_2">
+      <div class="block_2_1">
+        <h2>Ваш профиль</h2>
+        <div class="block_2_1_1">
+          <div class="id_name">
+            <div><strong>ID</strong><span>6</span></div>
+            <div><strong>Имя</strong><span>1</span></div>
+          </div>
+          <div class="wallet">
+            <strong>Кошелек</strong>
+            <div class="currency">
+              <div><span class="RUB">0</span><strong>RUB</strong></div>
+              <div><span class="EUR">0</span><strong>EUR</strong></div>
+              <div><span class="USD">0</span><strong>USD</strong></div>
+              <div><span class="NTC">0</span><strong>NTC</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="block_2_2">
+        <h2>Пополнение счёта</h2>
+        <div class="replenish">
+          <input class="replenish_sum" type="text" placeholder="Сумма"><select class="replenish_wallet" type="text"
+            placeholder="Валюта">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="RUB">RUB</option>
+          </select><button class="btn_replenish">Пополнить</button>
+        </div>
+      </div>
+      <div class="block_2_3">
+        <h2>Конвертация валют</h2>
+        <div class="profile">
+          <input class="profile_sum" type="text" placeholder="Сумма"><select class="profile_from_in profile_from"
+            type="text" placeholder="Из">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="RUB">RUB</option>
+          </select><select class="profile_from_in profile_in" type="text">
+            <option>USD</option>
+            <option>EUR</option>
+            <option>RUB</option>
+          </select><button class="btn_profile">Конвертировать</button>
+        </div>
+      </div>
+      <div class="block_2_4">
+        <h2>Перевод средств</h2>
+        <div class="whom">
+          <strong>Кому:</strong><select class="whom_wallet" type="text">
+          </select>
+        </div>
+        <div class="replenish">
+          <input class="replenish_sum" type="text" placeholder="Сумма"><select class="replenish_wallet" type="text"
+            placeholder="Валюта" tabindex="0">
+            <option>USD</option>
+            <option>EUR</option>
+            <option>RUB</option>
+          </select><button class="btn_replenish">Перевести</button>
+        </div>
+      </div>
+    </div>
+    <div class="block_3">
+      <h2>Адресная книга</h2>
+      <table class="table">
+        <tbody>
+          <tr>
+            <td><b>ID</b></td>
+            <td><b>Имя</b></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="list">
+        <input class="id" type="text" placeholder="ID"><input class="name" type="text" placeholder="Имя">
+      </div>
+      <button class="add">Добавить</button>
+    </div>
+  </main>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
